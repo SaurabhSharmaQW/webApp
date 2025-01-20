@@ -54,16 +54,16 @@ for (let index = 0; index < themeDots.length; index++) {
 
 function setTheme(mode) {
   if (mode == "light") {
-    document.getElementById("theme-style").href = "index.css";
+    document.getElementById("theme-style").href = "/CSS/index.css";
   }
   if (mode == "blue") {
-    document.getElementById("theme-style").href = "blue.css";
+    document.getElementById("theme-style").href = "/CSS/blue.css";
   }
   if (mode == "green") {
-    document.getElementById("theme-style").href = "green.css";
+    document.getElementById("theme-style").href = "/CSS/green.css";
   }
   if (mode == "purple") {
-    document.getElementById("theme-style").href = "purple.css";
+    document.getElementById("theme-style").href = "/CSS/purple.css";
   }
   localStorage.setItem("theme", mode);
 }
